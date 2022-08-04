@@ -1,4 +1,4 @@
-git clone https://github.com/my-fork-repo/Ultroid
+git clone https://github.com/create-fork-repos/Video-Encoder-Bot
 cd Video*
 pip install --upgrade pip
 pip3 install -r req*
