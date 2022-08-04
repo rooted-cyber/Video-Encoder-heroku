@@ -1,0 +1,40 @@
+{
+    "name": "Telegram",
+    "description": "You know what it does...",
+    "logo": "",
+    "keywords": [
+        "Telethon",
+        "telegram",
+        "python"
+    ],
+    "repository": "https://github.com/",
+    "success_url": "https://t.me/Telegram",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": "3704772", 
+            "required": false
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "value": "b8e50a035abb851c0dd424e14cac4c06",
+            "required": false
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot token",
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "Enter id",
+            "value": "",
+            "required": true
+        }
+    },
+    "formation": {
+        "rootedcyber": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
